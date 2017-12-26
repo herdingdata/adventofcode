@@ -1,5 +1,5 @@
 import unittest
-from inverse_captcha import get_captcha
+from day01.inverse_captcha import get_captcha
 
 
 class TestInverseCaptcha(unittest.TestCase):

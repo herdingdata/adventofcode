@@ -19,5 +19,4 @@ def get_captcha(input_num):
 
 
 if __name__ == '__main__':
-    print('input: ' + sys.argv[1])
-    print('output: ' + str(get_captcha(sys.argv[1])))
+    print('captcha result: ' + str(get_captcha(sys.argv[1])))

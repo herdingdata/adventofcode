@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db31b1a9-f4cc-4f6c-a5aa-2346c4fd34ad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day01/test_inverse_captcha.py" afterPath="$PROJECT_DIR$/day01/test_inverse_captcha.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,22 +15,12 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="inverse_captcha.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/day01/inverse_captcha.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="day02.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/day02/day02.md">
+          <file leaf-file-name="day03.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day03/day03.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SECOND">
-                  <first_editor relative-caret-position="0">
-                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <first_editor relative-caret-position="328">
+                    <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -39,12 +28,14 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="corruption_checksum.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/day02/corruption_checksum.py">
+          <file leaf-file-name="spiral_memory.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/day03/spiral_memory.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="-302">
+                  <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#0#27#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -53,11 +44,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test_corruption_checksum.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/day02/test_corruption_checksum.py">
+          <file leaf-file-name="test_spiral_memory.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/day03/test_spiral_memory.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+                <state relative-caret-position="285">
+                  <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -94,18 +85,35 @@
       <list>
         <option value="$PROJECT_DIR$/day01/day01.md" />
         <option value="$PROJECT_DIR$/day01/test_01_inverse_captcha.py" />
-        <option value="$PROJECT_DIR$/day01/inverse_captcha.py" />
         <option value="$PROJECT_DIR$/day02/day02.md" />
         <option value="$PROJECT_DIR$/day01/test_inverse_captcha.py" />
         <option value="$PROJECT_DIR$/day02/test_corruption_checksum.py" />
         <option value="$PROJECT_DIR$/day02/raw_spreadsheet.txt" />
         <option value="$PROJECT_DIR$/day02/corruption_checksum.py" />
+        <option value="$PROJECT_DIR$/day01/inverse_captcha.py" />
+        <option value="$PROJECT_DIR$/day03/day03.md" />
+        <option value="$PROJECT_DIR$/day03/test_spiral_memory.py" />
+        <option value="$PROJECT_DIR$/day03/spiral_memory.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -143,6 +151,11 @@
               <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
               <item name="day02" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -153,7 +166,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/.virtualenvs/advent/bin/python" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -177,19 +190,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_corruption_checksum.py">
-    <configuration name="Unittests for test_corruption_checksum.TestCorruptionChecksum.test_max9_min1_produces_8" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.spiral_memory">
+    <configuration name="Unittests for test_spiral_memory.TestSpiralMemory.test_input_12_produces_3_steps" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="adventofcode" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_corruption_checksum.TestCorruptionChecksum.test_max9_min1_produces_8&quot;" />
+      <option name="_new_target" value="&quot;test_spiral_memory.TestSpiralMemory.test_input_12_produces_3_steps&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_spiral_memory.TestSpiralMemory.test_input_one_produces_zero_steps" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="adventofcode" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_spiral_memory.TestSpiralMemory.test_input_one_produces_zero_steps&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests in test_corruption_checksum.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -204,6 +231,20 @@
       <module name="adventofcode" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/day02/test_corruption_checksum.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_spiral_memory.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="adventofcode" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/day03/test_spiral_memory.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -287,36 +328,19 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="corruption_checksum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spiral_memory" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="adventofcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day02/corruption_checksum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="test_01_inverse_captcha" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="adventofcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day01/test_inverse_captcha.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day03/spiral_memory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,19 +360,21 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/day01/test_inverse_captcha.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.test_inverse_captcha" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test_01_inverse_captcha" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_corruption_checksum.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_corruption_checksum.TestCorruptionChecksum.test_max9_min1_produces_8" />
-      <item index="4" class="java.lang.String" itemvalue="Python.corruption_checksum" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_corruption_checksum.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.spiral_memory" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_spiral_memory.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_spiral_memory.TestSpiralMemory.test_input_12_produces_3_steps" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests for test_spiral_memory.TestSpiralMemory.test_input_one_produces_zero_steps" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_corruption_checksum.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.corruption_checksum" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_corruption_checksum.TestCorruptionChecksum.test_max9_min1_produces_8" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_01_inverse_captcha" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.spiral_memory" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_spiral_memory.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_spiral_memory.TestSpiralMemory.test_input_one_produces_zero_steps" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_spiral_memory.TestSpiralMemory.test_input_12_produces_3_steps" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_corruption_checksum.py" />
       </list>
     </recent_temporary>
   </component>
@@ -366,46 +392,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_corruption_checksum_TestCorruptionChecksum_test_max9_min1_produces_8 - 2017.12.26 at 11h 45m 35s.xml">
-      <configuration name="Unittests for test_corruption_checksum.TestCorruptionChecksum.test_max9_min1_produces_8" configurationId="tests" />
+    <history-entry file="Unittests_for_test_spiral_memory_TestSpiralMemory_test_input_12_produces_3_steps - 2017.12.27 at 01h 08m 31s.xml">
+      <configuration name="Unittests for test_spiral_memory.TestSpiralMemory.test_input_12_produces_3_steps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_corruption_checksum_py - 2017.12.26 at 11h 17m 27s.xml">
-      <configuration name="Unittests in test_corruption_checksum.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_spiral_memory_TestSpiralMemory_test_input_12_produces_3_steps - 2017.12.27 at 01h 12m 22s.xml">
+      <configuration name="Unittests for test_spiral_memory.TestSpiralMemory.test_input_12_produces_3_steps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_corruption_checksum_py - 2017.12.26 at 11h 44m 06s.xml">
-      <configuration name="Unittests in test_corruption_checksum.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_spiral_memory_TestSpiralMemory_test_input_one_produces_zero_steps - 2017.12.27 at 01h 15m 12s.xml">
+      <configuration name="Unittests for test_spiral_memory.TestSpiralMemory.test_input_one_produces_zero_steps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_corruption_checksum_py - 2017.12.26 at 11h 45m 47s.xml">
-      <configuration name="Unittests in test_corruption_checksum.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_spiral_memory_TestSpiralMemory_test_input_one_produces_zero_steps - 2017.12.27 at 01h 17m 02s.xml">
+      <configuration name="Unittests for test_spiral_memory.TestSpiralMemory.test_input_one_produces_zero_steps" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_corruption_checksum_py - 2017.12.26 at 11h 53m 45s.xml">
-      <configuration name="Unittests in test_corruption_checksum.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_spiral_memory_py - 2017.12.27 at 01h 12m 28s.xml">
+      <configuration name="Unittests in test_spiral_memory.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_inverse_captcha - 2017.12.26 at 00h 47m 48s.xml">
-      <configuration name="test_inverse_captcha" configurationId="tests" />
+    <history-entry file="Unittests_in_test_spiral_memory_py - 2017.12.27 at 01h 13m 40s.xml">
+      <configuration name="Unittests in test_spiral_memory.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_inverse_captcha - 2017.12.26 at 00h 48m 34s.xml">
-      <configuration name="test_inverse_captcha" configurationId="tests" />
+    <history-entry file="Unittests_in_test_spiral_memory_py - 2017.12.27 at 01h 17m 19s.xml">
+      <configuration name="Unittests in test_spiral_memory.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_inverse_captcha - 2017.12.26 at 00h 49m 42s.xml">
-      <configuration name="test_inverse_captcha" configurationId="tests" />
+    <history-entry file="Unittests_in_test_spiral_memory_py - 2017.12.27 at 01h 19m 07s.xml">
+      <configuration name="Unittests in test_spiral_memory.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_inverse_captcha - 2017.12.26 at 00h 51m 36s.xml">
-      <configuration name="test_inverse_captcha" configurationId="tests" />
+    <history-entry file="Unittests_in_test_spiral_memory_py - 2017.12.27 at 01h 19m 46s.xml">
+      <configuration name="Unittests in test_spiral_memory.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_inverse_captcha - 2017.12.26 at 00h 51m 50s.xml">
-      <configuration name="test_inverse_captcha" configurationId="tests" />
+    <history-entry file="Unittests_in_test_spiral_memory_py - 2017.12.27 at 01h 20m 07s.xml">
+      <configuration name="Unittests in test_spiral_memory.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -429,7 +456,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -447,7 +481,7 @@
         <state relative-caret-position="330">
           <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -457,7 +491,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -491,7 +525,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -509,7 +543,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -521,21 +555,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day01/day01.md">
+    <entry file="file://$PROJECT_DIR$/day02/raw_spreadsheet.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/day01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="90" lean-forward="false" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day01/test_inverse_captcha.py">
+    <entry file="file://$PROJECT_DIR$/day01/inverse_captcha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="67" lean-forward="true" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -558,35 +607,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day02/test_corruption_checksum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="343">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/corruption_checksum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/test_inverse_captcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day03/test_spiral_memory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day01/inverse_captcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/day03/day03.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="328">
+            <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day02/raw_spreadsheet.txt">
+    <entry file="file://$PROJECT_DIR$/day03/spiral_memory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day02/corruption_checksum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-302">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -13,24 +13,22 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="puzzle_input.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/day07/puzzle_input.txt">
+          <file leaf-file-name="instructions.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day08/instructions.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14907">
-                  <caret line="1038" column="11" lean-forward="false" selection-start-line="1038" selection-start-column="11" selection-end-line="1038" selection-end-column="11" />
+                <state relative-caret-position="515">
+                  <caret line="999" column="25" lean-forward="false" selection-start-line="999" selection-start-column="25" selection-end-line="999" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="recursive_circus.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/day07/recursive_circus.py">
+          <file leaf-file-name="register_instructions.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/day08/register_instructions.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="51" column="54" lean-forward="false" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="1020">
+                  <caret line="68" column="56" lean-forward="false" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -39,27 +37,27 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="test_recursive_circus.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/day07/test_recursive_circus.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                  </folding>
+          <file leaf-file-name="day08.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day08/day08.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SECOND">
+                  <first_editor relative-caret-position="360">
+                    <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="day07.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/day07/day07.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SECOND">
-                  <first_editor relative-caret-position="255">
-                    <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="29" selection-end-column="13" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
+          <file leaf-file-name="test_register_instructions.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/day08/test_register_instructions.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="713">
+                  <caret line="73" column="73" lean-forward="false" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -126,6 +124,10 @@
         <option value="$PROJECT_DIR$/day07/day07.md" />
         <option value="$PROJECT_DIR$/day07/test_recursive_circus.py" />
         <option value="$PROJECT_DIR$/day07/recursive_circus.py" />
+        <option value="$PROJECT_DIR$/day08/day08.md" />
+        <option value="$PROJECT_DIR$/day08/instructions.txt" />
+        <option value="$PROJECT_DIR$/day08/test_register_instructions.py" />
+        <option value="$PROJECT_DIR$/day08/register_instructions.py" />
       </list>
     </option>
   </component>
@@ -176,12 +178,7 @@
             <path>
               <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="day05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
-              <item name="day07" type="462c0819:PsiDirectoryNode" />
+              <item name="day08" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,21 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_recursive_circus.py">
-    <configuration name="Unittests for test_memory_reallocation.TestRedistributionCycle" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="adventofcode" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_memory_reallocation.TestRedistributionCycle&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
+  <component name="RunManager" selected="Python.register_instructions">
     <configuration name="Unittests in test_memory_reallocation.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,6 +241,20 @@
       <module name="adventofcode" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/day07/test_recursive_circus.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_register_instructions.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="adventofcode" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/day08/test_register_instructions.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -375,6 +372,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="register_instructions" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/advent/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="adventofcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day08/register_instructions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="test_inverse_captcha" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -390,21 +404,22 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/day01/test_inverse_captcha.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python tests.test_inverse_captcha" />
       <item index="1" class="java.lang.String" itemvalue="Python.memory_reallocation" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_memory_reallocation.TestRedistributionCycle" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_memory_reallocation.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_recursive_circus.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python.recursive_circus" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_memory_reallocation.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_recursive_circus.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.recursive_circus" />
+      <item index="5" class="java.lang.String" itemvalue="Python.register_instructions" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests in test_register_instructions.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_recursive_circus.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.recursive_circus" />
-        <item index="2" class="java.lang.String" itemvalue="Python.memory_reallocation" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_memory_reallocation.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_memory_reallocation.TestRedistributionCycle" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_register_instructions.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_recursive_circus.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.recursive_circus" />
+        <item index="3" class="java.lang.String" itemvalue="Python.memory_reallocation" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_memory_reallocation.py" />
       </list>
     </recent_temporary>
   </component>
@@ -422,35 +437,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_recursive_circus_py - 2017.12.28 at 11h 45m 13s.xml">
-      <configuration name="Unittests in test_recursive_circus.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 08m 51s.xml">
+      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_recursive_circus_py - 2017.12.28 at 11h 45m 15s.xml">
-      <configuration name="Unittests in test_recursive_circus.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 09m 52s.xml">
+      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_recursive_circus_py - 2017.12.28 at 11h 45m 25s.xml">
-      <configuration name="Unittests in test_recursive_circus.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 10m 42s.xml">
+      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_recursive_circus_py - 2017.12.28 at 11h 45m 36s.xml">
-      <configuration name="Unittests in test_recursive_circus.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 11m 32s.xml">
+      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_recursive_circus_py - 2017.12.28 at 11h 45m 49s.xml">
-      <configuration name="Unittests in test_recursive_circus.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 14m 54s.xml">
+      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_recursive_circus_py - 2017.12.28 at 11h 47m 15s.xml">
-      <configuration name="Unittests in test_recursive_circus.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 16m 45s.xml">
+      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_recursive_circus_py - 2017.12.28 at 11h 47m 27s.xml">
-      <configuration name="Unittests in test_recursive_circus.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 17m 07s.xml">
+      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_recursive_circus_py - 2017.12.29 at 17h 18m 28s.xml">
-      <configuration name="Unittests in test_recursive_circus.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 19m 54s.xml">
+      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_recursive_circus_py - 2017.12.29 at 17h 18m 50s.xml">
-      <configuration name="Unittests in test_recursive_circus.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 20m 02s.xml">
+      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_recursive_circus_py - 2017.12.29 at 17h 20m 20s.xml">
-      <configuration name="Unittests in test_recursive_circus.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 20m 51s.xml">
+      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -493,13 +508,9 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="49" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="tests">
-        <watch expression="detected_patterns" language="Python" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/day04/test_high_entropy_passphrases.py">
@@ -844,16 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day07/test_recursive_circus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day07/recursive_circus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -861,6 +862,53 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/instructions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="999" column="25" lean-forward="false" selection-start-line="999" selection-start-column="25" selection-end-line="999" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/test_recursive_circus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/day08.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/test_register_instructions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="73" column="73" lean-forward="false" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/register_instructions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="56" lean-forward="false" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>

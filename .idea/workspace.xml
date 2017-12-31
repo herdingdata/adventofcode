@@ -13,21 +13,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="instructions.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/day08/instructions.txt">
+          <file leaf-file-name="stream_processor.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/day09/stream_processor.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="515">
-                  <caret line="999" column="25" lean-forward="false" selection-start-line="999" selection-start-column="25" selection-end-line="999" selection-end-column="25" />
+                <state relative-caret-position="211">
+                  <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="register_instructions.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="register_instructions.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/day08/register_instructions.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1020">
-                  <caret line="68" column="56" lean-forward="false" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+                <state relative-caret-position="388">
+                  <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="68" selection-end-column="56" />
                   <folding />
                 </state>
               </provider>
@@ -37,27 +37,27 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="day08.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/day08/day08.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SECOND">
-                  <first_editor relative-caret-position="360">
-                    <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
+          <file leaf-file-name="test_stream_processor.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/day09/test_stream_processor.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="373">
+                  <caret line="47" column="16" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="51" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test_register_instructions.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/day08/test_register_instructions.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="713">
-                  <caret line="73" column="73" lean-forward="false" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                  </folding>
+          <file leaf-file-name="day09.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day09/day09.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SECOND">
+                  <first_editor relative-caret-position="444">
+                    <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -128,6 +128,10 @@
         <option value="$PROJECT_DIR$/day08/instructions.txt" />
         <option value="$PROJECT_DIR$/day08/test_register_instructions.py" />
         <option value="$PROJECT_DIR$/day08/register_instructions.py" />
+        <option value="$PROJECT_DIR$/day09/day09.md" />
+        <option value="$PROJECT_DIR$/day09/stream.txt" />
+        <option value="$PROJECT_DIR$/day09/test_stream_processor.py" />
+        <option value="$PROJECT_DIR$/day09/stream_processor.py" />
       </list>
     </option>
   </component>
@@ -180,6 +184,11 @@
               <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
               <item name="day08" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="adventofcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adventofcode" type="462c0819:PsiDirectoryNode" />
+              <item name="day09" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -214,34 +223,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.register_instructions">
-    <configuration name="Unittests in test_memory_reallocation.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.stream_processor">
+    <configuration name="Unittests for test_stream_processor.TestStreamProcessor.test_score_group_example_case_3_scores_5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day09" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="adventofcode" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/day06/test_memory_reallocation.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_stream_processor.TestStreamProcessor.test_score_group_example_case_3_scores_5&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in test_recursive_circus.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_stream_processor.TestStreamProcessor.test_score_group_example_case_8_scores_3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day09" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="adventofcode" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/day07/test_recursive_circus.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_stream_processor.TestStreamProcessor.test_score_group_example_case_8_scores_3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests in test_register_instructions.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,6 +264,20 @@
       <module name="adventofcode" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/day08/test_register_instructions.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_stream_processor.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day09" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="adventofcode" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/day09/test_stream_processor.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -338,40 +361,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="memory_reallocation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="adventofcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/memory_reallocation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="recursive_circus" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day07" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="adventofcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day07/recursive_circus.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="register_instructions" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,6 +374,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="adventofcode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day08/register_instructions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="stream_processor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day09" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="adventofcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day09/stream_processor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -406,20 +412,20 @@
     </configuration>
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python tests.test_inverse_captcha" />
-      <item index="1" class="java.lang.String" itemvalue="Python.memory_reallocation" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_memory_reallocation.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_recursive_circus.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python.recursive_circus" />
-      <item index="5" class="java.lang.String" itemvalue="Python.register_instructions" />
-      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests in test_register_instructions.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.register_instructions" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_register_instructions.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_stream_processor.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_stream_processor.TestStreamProcessor.test_score_group_example_case_3_scores_5" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests for test_stream_processor.TestStreamProcessor.test_score_group_example_case_8_scores_3" />
+      <item index="6" class="java.lang.String" itemvalue="Python.stream_processor" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_register_instructions.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_recursive_circus.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.recursive_circus" />
-        <item index="3" class="java.lang.String" itemvalue="Python.memory_reallocation" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_memory_reallocation.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python.stream_processor" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_stream_processor.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_stream_processor.TestStreamProcessor.test_score_group_example_case_8_scores_3" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_stream_processor.TestStreamProcessor.test_score_group_example_case_3_scores_5" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_register_instructions.py" />
       </list>
     </recent_temporary>
   </component>
@@ -437,35 +443,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 08m 51s.xml">
-      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_stream_processor_TestStreamProcessor_test_score_group_example_case_3_scores_5 - 2017.12.30 at 01h 32m 12s.xml">
+      <configuration name="Unittests for test_stream_processor.TestStreamProcessor.test_score_group_example_case_3_scores_5" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 09m 52s.xml">
-      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_stream_processor_TestStreamProcessor_test_score_group_example_case_3_scores_5 - 2017.12.30 at 01h 34m 51s.xml">
+      <configuration name="Unittests for test_stream_processor.TestStreamProcessor.test_score_group_example_case_3_scores_5" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 10m 42s.xml">
-      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_stream_processor_TestStreamProcessor_test_score_group_example_case_3_scores_5 - 2017.12.30 at 01h 34m 53s.xml">
+      <configuration name="Unittests for test_stream_processor.TestStreamProcessor.test_score_group_example_case_3_scores_5" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 11m 32s.xml">
-      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_stream_processor_TestStreamProcessor_test_score_group_example_case_8_scores_3 - 2017.12.30 at 01h 37m 05s.xml">
+      <configuration name="Unittests for test_stream_processor.TestStreamProcessor.test_score_group_example_case_8_scores_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 14m 54s.xml">
-      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_stream_processor_TestStreamProcessor_test_score_group_example_case_8_scores_3 - 2017.12.30 at 01h 38m 01s.xml">
+      <configuration name="Unittests for test_stream_processor.TestStreamProcessor.test_score_group_example_case_8_scores_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 16m 45s.xml">
-      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_stream_processor_TestStreamProcessor_test_score_group_example_case_8_scores_3 - 2017.12.30 at 01h 38m 33s.xml">
+      <configuration name="Unittests for test_stream_processor.TestStreamProcessor.test_score_group_example_case_8_scores_3" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 17m 07s.xml">
-      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_stream_processor_py - 2017.12.30 at 01h 35m 28s.xml">
+      <configuration name="Unittests in test_stream_processor.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 19m 54s.xml">
-      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_stream_processor_py - 2017.12.30 at 01h 37m 43s.xml">
+      <configuration name="Unittests in test_stream_processor.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 20m 02s.xml">
-      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_stream_processor_py - 2017.12.30 at 01h 41m 28s.xml">
+      <configuration name="Unittests in test_stream_processor.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_register_instructions_py - 2017.12.29 at 18h 20m 51s.xml">
-      <configuration name="Unittests in test_register_instructions.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_stream_processor_py - 2017.12.30 at 01h 45m 05s.xml">
+      <configuration name="Unittests in test_stream_processor.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -508,21 +514,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="49" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day04/test_high_entropy_passphrases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day06/day06.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -899,15 +895,60 @@
         <state relative-caret-position="713">
           <caret line="73" column="73" lean-forward="false" selection-start-line="73" selection-start-column="73" selection-end-line="73" selection-end-column="73" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/stream.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23983" lean-forward="true" selection-start-line="0" selection-start-column="23983" selection-end-line="0" selection-end-column="23983" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day08/register_instructions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="56" lean-forward="false" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+        <state relative-caret-position="388">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="68" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/day09.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="444">
+            <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/advent/lib/python3.5/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/test_stream_processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="47" column="16" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/stream_processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>

@@ -18,10 +18,13 @@ def test__least_fuel_required_increase_burn_rate__their_sample__produces_expecte
     assert result_fuel == expected_fuel
 
 
+FunctionInput = namedtuple("function_input", "from_pos to_pos expected_fuel")
+
+
 @pytest.mark.parametrize("from_pos, to_pos, expected_fuel", [
-    (0, 5, 15),
-    (4, 5, 1),
-    (16, 5, 66),
+    FunctionInput(from_pos=0, to_pos=5, expected_fuel=15),
+    FunctionInput(from_pos=4, to_pos=5, expected_fuel=1),
+    FunctionInput(from_pos=16, to_pos=5, expected_fuel=66),
 ], ids=["from 0 to 5", "from 4 to 5", "from 16 to 5"])
 def test__how_much_fuel(from_pos, to_pos, expected_fuel):
     result_fuel = pesky_whales.how_much_fuel(from_pos, to_pos, increase_burn_rate=True)

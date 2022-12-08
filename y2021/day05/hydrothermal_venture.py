@@ -1,6 +1,6 @@
 from typing import List, Tuple
 
-from y2021.helpers import read
+from helpers import read
 
 
 def get_coords_of_line(line_coords: str) -> Tuple[Tuple[int, int], Tuple[int, int]]:

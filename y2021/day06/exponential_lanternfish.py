@@ -1,4 +1,4 @@
-from y2021.helpers import read
+from helpers import read
 
 
 def turn_fish_list_into_summarised_dict(fish_counters: list) -> dict:

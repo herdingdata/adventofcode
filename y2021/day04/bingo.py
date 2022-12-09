@@ -1,7 +1,7 @@
 from typing import List
 from itertools import islice
 
-from y2021.helpers import read
+from helpers import read
 
 
 def get_numbers_and_boards(data: List[str]) -> (int, List[List[int]]):

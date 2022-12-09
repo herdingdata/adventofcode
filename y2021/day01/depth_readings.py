@@ -1,7 +1,7 @@
 from typing import List
 from itertools import islice
 
-from y2021.helpers import read
+from helpers import read
 
 
 def count_increments(depth_readings: list) -> int:

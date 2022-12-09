@@ -1,6 +1,6 @@
 from typing import List
 
-from y2021.helpers import read
+from helpers import read
 
 
 def pilot_the_sub(commands: List[str]) -> (int, int):

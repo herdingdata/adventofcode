@@ -1,6 +1,6 @@
 from typing import List
 
-from y2021.helpers import read
+from helpers import read
 
 
 def how_much_fuel(from_pos, to_pos, increase_burn_rate=False):

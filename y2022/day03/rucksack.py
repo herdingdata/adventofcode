@@ -1,4 +1,6 @@
 import string
+from collections.abc import Iterable
+from itertools import islice
 from dataclasses import dataclass
 
 from helpers import read
@@ -39,18 +41,44 @@ class Rucksack:
             self._common_items = ''.join(common_list)
         return self._common_items
 
+    @property
+    def item_set(self):
+        return set(self.items)
+
 
 def get_sum_of_all_common_item_priorities(items: list[str]) -> int:
     rucksacks = [Rucksack(i) for i in items]
     return sum([get_priority(r.common_items) for r in rucksacks])
 
 
-def find_badges(items):
-    # pt2 - the rucksacks are in groups of 3, of which the matching item is the badge
+def find_badge(rucksacks: Iterable[Rucksack]):
+    return ''.join(set.intersection(*[r.item_set for r in rucksacks]))
 
+
+def find_all_badges_points(items: list[str]):
+    """
+    items - the puzzle input, iterable of strings
+    divides this input into chunks of 3, finds the badge for each
+    return: sum of all the badge points
+    """
+    # pt2 - the rucksacks are in groups of 3, of which the matching item is the badge
+    def _split_every(iterable: Iterable, n: int):  # thank you, SO https://stackoverflow.com/a/41200105/3911007
+        iterable = iter(iterable)
+        yield from iter(lambda: list(islice(iterable, n)), [])
+
+    points = 0
+    chunks_of_3 = _split_every(items, 3)
+    for group_of_ruckitems in chunks_of_3:
+        group_of_rucks = [Rucksack(it) for it in group_of_ruckitems]
+        badge = find_badge(group_of_rucks)
+        points += PRIORITIES[badge]
+    return points
 
 
 if __name__ == "__main__":
     # pt1
-    rucksacks = [x for x in read.read_file_as_list('y2022/day03/puzzle_input.txt')]
-    print(get_sum_of_all_common_item_priorities(rucksacks))
+    rucks = [x for x in read.read_file_as_list('y2022/day03/puzzle_input.txt')]
+    print(get_sum_of_all_common_item_priorities(rucks))
+
+    # pt2
+    print(find_all_badges_points(rucks))

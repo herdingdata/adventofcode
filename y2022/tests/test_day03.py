@@ -86,6 +86,38 @@ class TestGetPrioritySum:
         assert r.get_priority(ruck.common_items) == 19
 
 
+class TestFindBadge:
+    def test_group1__badge_is_r(self, sample_ruck_groups):
+        items = [
+            "vJrwpWtwJgWrhcsFMMfFFhFp",
+            "jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL",
+            "PmmdzqPrVvPwwTWBwg",
+        ]
+        group = [r.Rucksack(a) for a in items]
+        assert r.find_badge(group) == 'r'
+
+    def test_group2__badge_is_Z(self, sample_ruck_groups):
+        items = [
+            "wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn",
+            "ttgJtRGJQctTZtZT",
+            "CrZsJsPPZsGzwwsLwLmpwMDw",
+        ]
+        group = [r.Rucksack(a) for a in items]
+        assert r.find_badge(group) == 'Z'
+
+
+def test_find_all_badges_points__their_sample__returns_70():
+    items = [
+        "vJrwpWtwJgWrhcsFMMfFFhFp",
+        "jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL",
+        "PmmdzqPrVvPwwTWBwg",
+        "wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn",
+        "ttgJtRGJQctTZtZT",
+        "CrZsJsPPZsGzwwsLwLmpwMDw",
+    ]
+    assert r.find_all_badges_points(items) == 70
+
+
 def test_get_sum_of_all_common_item_priorities__their_sample__157(sample_rucksacks):
     rucksacks = list(sample_rucksacks.values())
     assert r.get_sum_of_all_common_item_priorities(rucksacks) == 157

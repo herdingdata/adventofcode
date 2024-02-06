@@ -1,0 +1,123 @@
+import pytest
+
+from y2022.day03 import rucksack as r
+
+@pytest.fixture()
+def sample_rucksacks():
+    return {
+        1: "vJrwpWtwJgWrhcsFMMfFFhFp",
+        2: "jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL",
+        3: "PmmdzqPrVvPwwTWBwg",
+        4: "wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn",
+        5: "ttgJtRGJQctTZtZT",
+        6: "CrZsJsPPZsGzwwsLwLmpwMDw",
+    }
+
+
+class TestCompartments:
+    def test_compartments__their_sample1__expected_compartments(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[1])
+        assert ruck.compartments == ('vJrwpWtwJgWr', 'hcsFMMfFFhFp')
+
+    def test_compartments__their_sample2__expected_compartments(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[2])
+        assert ruck.compartments == ('jqHRNqRjqzjGDLGL', 'rsFMfFZSrLrFZsSL')
+
+    def test_compartments__their_sample3__expected_compartments(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[3])
+        assert ruck.compartments == ('PmmdzqPrV', 'vPwwTWBwg')
+
+    def test_compartments__len_not_even__raises_value_error(self, sample_rucksacks):
+        items = "abC"
+        ruck = r.Rucksack(items)
+        with pytest.raises(ValueError):
+            compartments = ruck.compartments
+
+
+class TestCommonItems:
+    def test_common_items__sample1__expected(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[1])
+        assert ruck.common_items == "p"
+
+    def test_common_items__sample2__expected(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[2])
+        assert ruck.common_items == "L"
+
+    def test_common_items__sample3__expected(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[3])
+        assert ruck.common_items == "P"
+
+    def test_common_items__sample4__expected(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[4])
+        assert ruck.common_items == "v"
+
+    def test_common_items__sample5__expected(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[5])
+        assert ruck.common_items == "t"
+
+    def test_common_items__sample6__expected(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[6])
+        assert ruck.common_items == "s"
+
+
+class TestGetPrioritySum:
+    def test_get_priority_sum__sample1__expected(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[1])
+        assert r.get_priority(ruck.common_items) == 16
+
+    def test_get_priority_sum__sample2__expected(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[2])
+        assert r.get_priority(ruck.common_items) == 38
+
+    def test_get_priority_sum__sample3__expected(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[3])
+        assert r.get_priority(ruck.common_items) == 42
+
+    def test_get_priority_sum__sample4__expected(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[4])
+        assert r.get_priority(ruck.common_items) == 22
+
+    def test_get_priority_sum__sample5__expected(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[5])
+        assert r.get_priority(ruck.common_items) == 20
+
+    def test_get_priority_sum__sample6__expected(self, sample_rucksacks):
+        ruck = r.Rucksack(sample_rucksacks[6])
+        assert r.get_priority(ruck.common_items) == 19
+
+
+class TestFindBadge:
+    def test_group1__badge_is_r(self, sample_ruck_groups):
+        items = [
+            "vJrwpWtwJgWrhcsFMMfFFhFp",
+            "jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL",
+            "PmmdzqPrVvPwwTWBwg",
+        ]
+        group = [r.Rucksack(a) for a in items]
+        assert r.find_badge(group) == 'r'
+
+    def test_group2__badge_is_Z(self, sample_ruck_groups):
+        items = [
+            "wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn",
+            "ttgJtRGJQctTZtZT",
+            "CrZsJsPPZsGzwwsLwLmpwMDw",
+        ]
+        group = [r.Rucksack(a) for a in items]
+        assert r.find_badge(group) == 'Z'
+
+
+def test_find_all_badges_points__their_sample__returns_70():
+    items = [
+        "vJrwpWtwJgWrhcsFMMfFFhFp",
+        "jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL",
+        "PmmdzqPrVvPwwTWBwg",
+        "wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn",
+        "ttgJtRGJQctTZtZT",
+        "CrZsJsPPZsGzwwsLwLmpwMDw",
+    ]
+    assert r.find_all_badges_points(items) == 70
+
+
+def test_get_sum_of_all_common_item_priorities__their_sample__157(sample_rucksacks):
+    rucksacks = list(sample_rucksacks.values())
+    assert r.get_sum_of_all_common_item_priorities(rucksacks) == 157

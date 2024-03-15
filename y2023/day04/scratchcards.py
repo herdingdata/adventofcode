@@ -85,8 +85,8 @@ def _count_won_scratchcards(game_definitions_evaluated: Iterable[Game], game_def
     again, I'm sure there's a far more efficient way of doing this
     challenge for future me: make it fast
 
-    game_definitions_evaluated: list of tuple (winners set, game set, index)
-    game_definitions_all: list of tuple (winners set, game set) exactly as per puzzle
+    game_definitions_evaluated: iter of Game instances
+    game_definitions_all: iter of Game instances exactly as per puzzle (so we can slice it when we win)
 
     idea: learn about async but pycharm started 140 odd threads so arguable how much it'll help
     idea: keep the card numbers separate so I'm not regexing them upon every loop

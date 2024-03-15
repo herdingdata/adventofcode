@@ -118,3 +118,25 @@ class TestPossiblePartNumber:
 
         assert result == expected
 
+    @pytest.mark.parametrize('index,expected', [
+        # (index from full list, expected bool)
+        (0, True),  # 467
+        (1, False),  # 114
+        (2, True),  # 35
+        (3, False),  # 633
+        (4, False),  # 617
+        (5, False),  # 58
+        (6, False),  # 592
+        (7, True),  # 755
+        (8, False),  # 664
+        (9, True),  # 598
+    ])
+    def test_is_gear_part(self, full_schema, index, expected):
+        schematic = gr.EngineSchematic(puzzle_input=full_schema)
+        part = schematic.all_possible_parts[index]
+
+        result = part.is_gear_part(schematic.is_ast_arr)
+
+        assert result == expected
+
+

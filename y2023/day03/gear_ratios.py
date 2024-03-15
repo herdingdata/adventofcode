@@ -41,6 +41,13 @@ class PossiblePartNumber:
             self._is_real_part = adjacents_issymbols.any()
         return self._is_real_part
 
+    def is_gear_part(self, asterisks_array: np.array) -> bool:
+        # pt2 - is it one component of a gear i.e. does it have a * adjacent AND does that have a number adjacent to that asterisk
+        if self._is_real_part is None:
+            adjacents_isasterisk = adjacent_array(asterisks_array, self.start_xy, self.end_xy)
+            self._is_gear_part = adjacents_isasterisk.any()  # need coordinate of this symbol
+        return self._is_gear_part
+
 
 class EngineSchematic:
     # Representation of the grid that we get from our puzzle input
@@ -129,7 +136,9 @@ class EngineSchematic:
             self._all_actual_part_numbers = actual_parts
         return self._all_actual_part_numbers
 
-
+# xy of asterisk
+# xy of number adjacent
+# then figure out which of the numbers is in that range
 if __name__ == "__main__":
     puzzle = open('puzzle_input.txt').read()
     schematic = EngineSchematic(puzzle)
